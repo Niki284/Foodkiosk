@@ -1,0 +1,39 @@
+
+{
+    "kebab's": [
+        {
+            "name": "PIZZA AMERICAN",
+            "picture": ""
+        },
+        {
+            "name": "PIZZA MARGHERITA",
+            "picture": ""
+        },
+        {
+            "name": "PIZZA 4 CHEESE",
+            "picture": ""
+        },
+        {
+            "name": "PIZZA 4 STAGIONI",
+            "picture": ""
+        }
+    ],
+    "pita": [
+        {
+            "name": "PIZZA AMERICAN",
+            "picture": ""
+        },
+        {
+            "name": "PIZZA MARGHERITA",
+            "picture": ""
+        },
+        {
+            "name": "PIZZA 4 CHEESE",
+            "picture": ""
+        },
+        {
+            "name": "PIZZA 4 STAGIONI",
+            "picture": ""
+        }
+    ]  
+}

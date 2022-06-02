@@ -1,0 +1,37 @@
+
+{
+    "pizza's": [
+        {
+            "name": "PIZZA AMERICAN",
+            "picture": ""
+        },
+        {
+            "name": "PIZZA MARGHERITA",
+            "picture": ""
+        },
+        {
+            "name": "PIZZA 4 CHEESE",
+            "picture": ""
+        },
+        {
+            "name": "PIZZA 4 STAGIONI",
+            "picture": ""
+        },
+        {
+            "name": "PIZZA BBQ GRILL",
+            "picture": ""
+        },
+        {
+            "name": "PIZZA SAVOYARDE",
+            "picture": ""
+        },
+        {
+            "name": "PIZZA EXTRAVAGANZZA",
+            "picture": ""
+        },
+        {
+            "name": "PIZZA GOATCHEESE BACON",
+            "picture": ""
+        }
+    ] 
+}
