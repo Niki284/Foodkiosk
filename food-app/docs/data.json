@@ -14,25 +14,6 @@
             "picture": ""
         }
     ],
-    "mochas": [
-        {
-            "name": "Caffe Mocha",
-            "picture": ""
-        },
-        {
-            "name": "Iced Caffe Mocha",
-            "picture": ""
-        },
-        {
-            "name": "White Chocolate Mocha",
-            "picture": ""
-        },
-        {
-            "name": "Iced White Chocolate Mocha",
-            "picture": ""
-        }
-    ],
-    
     "cappuchinos": [
         {
             "name": "Cappuccino",

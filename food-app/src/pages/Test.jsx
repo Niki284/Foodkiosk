@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+/*import React, { Component } from 'react'
 
 export default class Test extends Component {
     constructor(){
@@ -37,7 +37,7 @@ export default class Test extends Component {
            } else {
                return  (
                    <ul>
-                       {items.map(item => {
+                       {items?.map(item => {
                            <li key={item.name}>
                                {item.strDrink}
                                <img src={item.strDrinkThumb} alt="" />
@@ -49,3 +49,4 @@ export default class Test extends Component {
        }
  
 }
+*/
