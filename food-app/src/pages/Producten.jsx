@@ -3,19 +3,21 @@ import Modal from '../components/Modal/Modal'
 import { categorie } from '../constans'
 import useFetch from '../hooks/useFetch';
 import { Product } from './Product';
+import { API_FOOD_URL } from '../api';
 //import pizza from '../pizza.json'
 
 
  const Producten = () => {
-  //const{slug}=useParams();
-  //useFetch(<Product/> ${slug})
-    const [modelActive, setModelActive ] = useState(false)
+
+  const [data,error,loading] = useFetch(API_FOOD_URL)
+     
+
+    
     return (
       <div>
-   
+          
           Producten
-          <button className='open' onClick={()=> setModelActive(true)}>test</button>
-          <Modal active={modelActive} setActive={setModelActive} />
+          
       </div>
     )
 }

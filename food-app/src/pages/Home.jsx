@@ -1,16 +1,15 @@
 
-import pizza from '../assets/img/Rectangle 7.png'
-import cola from '../assets/img/Rectangle 11.png'
-import pitta from '../assets/img/Rectangle 12.png'
 import { Link } from 'react-router-dom'
+import {categorie} from '../constans'
+import "../components/categorie.css"
 const Home = () => {
   return (
 
-    <div>
-      <ul>
-        <li><img src={pizza} alt="" /><a href="Pizza">Pizza</a></li>
-        <li><img src={cola} alt="" /><a href="Drinks">Drinks</a></li>
-        <li><img src={pitta} alt="" /><a href="pitta">Pitta</a></li>
+    <div className='categorie'>
+      <ul className='categorie--list'>
+      {categorie.map((e)=>{
+        const img = require(`../assets/img/${e.slug}`);
+        return <li className='categorie--link'><img className='categorie--img' src={img} alt=""/><a href={e.slug}>{e.name}</a></li>})}
       </ul>
      
       
