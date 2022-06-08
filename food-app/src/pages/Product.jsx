@@ -21,8 +21,7 @@ export const Product = () => {
         <>
           <h1>Posts</h1>
            {products["pizza's"].map((product)=> (
-             <li>{product.name}
-             <img src={product.picture} alt="" />
+             <li>{product.name},<img src={product.picture} alt="" />
              </li>
           ))}
           

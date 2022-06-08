@@ -8,7 +8,7 @@ import helper from '../helper'
 
 
  const Products = () => {
-  console.log(useFetch);
+  
   //const [product,productError,productLoading] = useFetch(API_FOOD_URL)
      
  

@@ -4,42 +4,42 @@
         {
             "id" : 1,
             "name": "PIZZA AMERICAN",
-            "picture": "../assets/img/pizza.png"
+            "picture": "pizza.png"
         },
         {
             "id" : 2,
             "name": "PIZZA MARGHERITA",
-            "picture": "../assets/img/pizza2.png"
+            "picture": "pizza2.png"
         },
         {
             "id" : 3,
             "name": "PIZZA 4 CHEESE",
-            "picture": "../assets/img/pizza3.png"
+            "picture": "pizza3.png"
         },
         {
             "id" : 4,
             "name": "PIZZA 4 STAGIONI",
-            "picture": "../assets/img/pizza4.png"
+            "picture": "pizza4.png"
         },
         {
             "id" : 5,
             "name": "PIZZA BBQ GRILL",
-            "picture": "../assets/img/pizza5.png"
+            "picture": "pizza5.png"
         },
         {
             "id" : 6,
             "name": "PIZZA SAVOYARDE",
-            "picture": "../assets/img/pizza6.png"
+            "picture": "pizza6.png"
         },
         {
             "id" : 7,
             "name": "PIZZA EXTRAVAGANZZA",
-            "picture": "../assets/img/pizza7.png"
+            "picture": "pizza7.png"
         },
         {
             "id" : 8,
             "name": "PIZZA GOATCHEESE BACON",
-            "picture": "../assets/img/pizza8.png"
+            "picture": "pizza8.png"
         }
     ] 
 }
