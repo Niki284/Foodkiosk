@@ -1,8 +1,8 @@
 import './App.css';
 import {Routes, Route, Link, Router} from 'react-router-dom';
 import {Home} from './pages/Home';
-
-import Producten from './pages/Producten'
+import { Product } from './pages/Product';
+import Products from './pages/Products'
 import BaseLayout from './layouts/BaseLayout';
 
 
@@ -24,8 +24,8 @@ function App() {
       <Routes>
         <Route path="/" element={<BaseLayout/>}>
           <Route index element={<Home />}/>
-          <Route path="producten" element={<Producten />}/>
-         
+          <Route path="products" element={<Products />}/>
+          <Route path="product:categorie" element={<Product />}/>
         </Route>
           
          

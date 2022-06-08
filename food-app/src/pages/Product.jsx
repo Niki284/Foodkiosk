@@ -2,27 +2,22 @@ import React, { useState,useEffect } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { API_FOOD_URL } from '../api';
 import { categorie } from '../constans'
+import useFetch from '../hooks/useFetch';
 
 
 
 export const Product = () => {
-    categorie.map(categorie=> <Link to={categorie.slug}>
-        {categorie.name}
-    </Link> )
-   const params = useParams();
-
-   useEffect(() => {
-    fetch(API_FOOD_URL)
-    .then(response => {
-      if (!response.ok) {
-        throw new Error(response.statusText);
-      }
-      return response.json();
-    })
-   }, [])
+   const {categorie} = useParams();
+   const [products,productError,productLoading] = useFetch(`https://raw.githubusercontent.com/Niki284/Foodkiosk/main/food-app/docs/${categorie}.json`)
    
   return (
-
-    <div>Product</div>
+    <div>
+     <ul>
+       <li>
+       <p>{products.API_FOOD_URL}</p>
+       </li>
+       </ul> 
+      Product
+    </div>
   )
 }

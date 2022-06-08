@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+/*
 const useFetch = (url) => {
   const [data, setData] = useState();
   const [error, setError] = useState();
@@ -27,8 +28,8 @@ const useFetch = (url) => {
   return [data, error, loading];
 };
 
-export default useFetch;
-/*
+export default useFetch;*/
+
 const useFetch = (url, options) => {
   const [response, setResponse] = useState(null);
   const [error, setError] = useState(null);
@@ -43,6 +44,7 @@ const useFetch = (url, options) => {
       try {
         const res = await fetch(url, options);
         const json = await res.json();
+        console.log(json);
 
         if (!signal.aborted) {
           setResponse(json);
@@ -67,4 +69,4 @@ const useFetch = (url, options) => {
   return [response, error, loading];
 };
 export default useFetch;
-*/
+

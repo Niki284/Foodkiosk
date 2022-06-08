@@ -8,7 +8,7 @@ const Home = () => {
     <div className='categorie'>
       <ul className='categorie--list'>
       {categorie.map((e)=>{
-        const img = require(`../assets/img/${e.slug}`);
+        const img = require(`../assets/img/${e.img}`);
         return <li className='categorie--link'><img className='categorie--img' src={img} alt=""/><a href={e.slug}>{e.name}</a></li>})}
       </ul>
      

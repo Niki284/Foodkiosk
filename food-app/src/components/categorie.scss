@@ -1,6 +1,10 @@
 
 .categorie {
+    display: flex;
+    justify-content: center;
+    
     .categorie--list {
+        background-color:brown;
         .categorie--link {
             display: grid;
             justify-items: center;
