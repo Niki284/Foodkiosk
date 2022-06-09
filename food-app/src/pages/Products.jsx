@@ -8,12 +8,7 @@ import helper from '../helper'
 
 
  const Products = () => {
-  
-  //const [product,productError,productLoading] = useFetch(API_FOOD_URL)
      
- 
-
-    
     return (
       <div>
           <List/>

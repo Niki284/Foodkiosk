@@ -1,8 +1,10 @@
 import './App.css';
-import {Routes, Route, Link, Router} from 'react-router-dom';
 import {Home} from './pages/Home';
 import { Product } from './pages/Product';
 import Products from './pages/Products'
+import {Routes, Route, Link, Router, useLocation} from 'react-router-dom';
+import { AnimatePresence } from 'framer-motion';
+import Betaal from './pages/Betaal'
 import BaseLayout from './layouts/BaseLayout';
 
 
@@ -10,30 +12,21 @@ import BaseLayout from './layouts/BaseLayout';
 
 
 function App() {
-  /*
-  const data = 
-  [
-    {path:"/", name: 'Home', element:<Home/>},
-    {path:"/detail", name: 'Detail', element:<Detailpage/>},
-    <Header links = {data}/>
-  ]
-  */
+  
+  const location = useLocation()
   return (
     <div>
-      
-      <Routes>
+        <AnimatePresence>
+              <Routes location={location} key={location.pathname}>
         <Route path="/" element={<BaseLayout/>}>
           <Route index element={<Home />}/>
           <Route path="products" element={<Products />}/>
-          <Route path="product:categorie" element={<Product />}/>
+          <Route path="products/:categorie" element={<Product />}/>
+          <Route path="afrekennen" element={<Betaal />}/>
         </Route>
-          
-         
-        {/*data.map(e=><Route key = {e.path} path = {e.path} element = {e.element}/>)*/}
-        {/* <Route path="/"  element={<Home />} />
-        <Route path="/about"  element={<About />} />
-        <Route path="/projecten" element={<Projecten />} /> */}
       </Routes>
+        </AnimatePresence>
+      
     </div>
   );
 }

@@ -12,15 +12,15 @@ export const Product = () => {
    console.log(products);
   return (
     <div>
-       Product
+     
      <ul>
        
        {productLoading && <p>Loading...</p>}
       {productError && <p>Something went wrong...</p>}
       {products && (
         <>
-          <h1>Posts</h1>
-           {products["pizza's"].map((product)=> (
+          
+           {products["pizza's","pitta","data"].map((product)=> (
              <li>{product.name},<img src={product.picture} alt="" />
              </li>
           ))}
