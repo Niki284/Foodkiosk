@@ -4,7 +4,7 @@
         {
             "id" : 1,
             "name": "PIZZA AMERICAN",
-            "picture": "../img/pizza.png",
+            "picture": "img/pizza.png",
             "price": "3.50",
             "info": [
                 "tomaten",
@@ -15,7 +15,7 @@
         {
             "id" : 2,
             "name": "PIZZA MARGHERITA",
-            "picture": "../img/pizza2.png",
+            "picture": "img/pizza2.png",
             "price": "4.50",
             "info": [
                 "tomaten",
@@ -27,7 +27,7 @@
         {
             "id" : 3,
             "name": "PIZZA 4 CHEESE",
-            "picture": "../img/pizza3.png",
+            "picture": "../pizza3.png",
             "price": "5.50",
             "info": [
                 "tomaten",
@@ -38,7 +38,7 @@
         {
             "id" : 4,
             "name": "PIZZA 4 STAGIONI",
-            "picture": "../img/pizza4.png",
+            "picture": "../pizza4.png",
             "price": "6.50",
             "info": [
                 "tomaten",
