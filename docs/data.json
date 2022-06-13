@@ -1,0 +1,71 @@
+
+{
+    "lattes": [
+        {
+            "name": "Caffe Latte",
+            "picture": ""
+        },
+        {
+            "name": "Iced Caffe Latte",
+            "picture": "../Rectangle 7.png",
+            "info": [
+                "cofie",
+                "Melk",
+                "warme water"
+            ]
+        },
+        {
+            "name": "Iced Starbucks Blonde Latte",
+            "picture": ""
+        }
+    ],
+    "cappuchinos": [
+        {
+            "name": "Cappuccino",
+            "picture": ""
+        },
+        {
+            "name": "Cold Foam Iced Cappuccino",
+            "picture": ""
+        },
+        {
+            "name": "Classic Iced Cappuccino",
+            "picture": ""
+        }
+    ],
+    "americanos": [
+        {
+            "name": "Caffe Americano",
+            "picture": ""
+        },
+        {
+            "name": "Iced Caffe Americano",
+            "picture": ""
+        }
+    ],
+    "espressos": [
+        {
+            "name": "Espresso",
+            "picture": ""
+        },
+        {
+            "name": "Espresso Macchiato",
+            "picture": ""
+        },
+        {
+            "name": "Espresso Con Panna",
+            "picture": ""
+        }
+    ],
+    "cortado": [
+        {
+            "name": "Flat White",
+            "picture": ""
+        },
+        {
+            "name": "Cartado",
+            "picture": ""
+        }
+        
+    ]
+}
