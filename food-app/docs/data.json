@@ -7,7 +7,12 @@
         },
         {
             "name": "Iced Caffe Latte",
-            "picture": "../Rectangle 7.png"
+            "picture": "../Rectangle 7.png",
+            "info": [
+                "cofie",
+                "Melk",
+                "warme water"
+            ]
         },
         {
             "name": "Iced Starbucks Blonde Latte",

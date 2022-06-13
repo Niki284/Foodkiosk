@@ -1,39 +1,95 @@
 
 {
     "kebab's": [
-        {
-            "name": "PIZZA AMERICAN",
-            "picture": ""
+        {   
+            "id":10,
+            "name": "Kebab AMERICAN",
+            "picture": "",
+            "price": "3.50",
+            "info": [
+                "tomaten",
+                "kaas",
+                "champion"
+            ]
         },
         {
-            "name": "PIZZA MARGHERITA",
-            "picture": ""
+            "id" : 11,
+            "name": "Kebab MARGHERITA",
+            "picture": "",
+            "price": "3.60",
+            "info": [
+                "tomaten",
+                "kaas",
+                "champion"
+            ]
         },
         {
-            "name": "PIZZA 4 CHEESE",
-            "picture": ""
+            "id" : 12,
+            "name": "Kebab 4 CHEESE",
+            "picture": "",
+            "price": "3.80",
+            "info": [
+                "tomaten",
+                "kaas",
+                "champion"
+            ]
         },
         {
-            "name": "PIZZA 4 STAGIONI",
-            "picture": ""
+            "id": 13,
+            "name": "Kebab 4 STAGIONI",
+            "picture": "",
+            "price": "4.50",
+            "info": [
+                "tomaten",
+                "kaas",
+                "champion"
+            ]
         }
     ],
     "pita": [
         {
-            "name": "PIZZA AMERICAN",
-            "picture": ""
+            "id": 14,
+            "name": "Pita AMERICAN",
+            "picture": "",
+            "price": "5.0",
+            "info": [
+                "tomaten",
+                "kaas",
+                "champion"
+            ]
         },
         {
-            "name": "PIZZA MARGHERITA",
-            "picture": ""
+            "id": 15,
+            "name": "Pita MARGHERITA",
+            "picture": "",
+            "price": "3.50",
+            "info": [
+                "tomaten",
+                "kaas",
+                "champion"
+            ]
         },
         {
-            "name": "PIZZA 4 CHEESE",
-            "picture": ""
+            "id" : 16,
+            "name": "Pita 4 CHEESE",
+            "picture": "",
+            "price": "4.50",
+            "info": [
+                "tomaten",
+                "kaas",
+                "champion"
+            ]
         },
-        {
-            "name": "PIZZA 4 STAGIONI",
-            "picture": ""
+        {   
+            "id": 17,
+            "name": "Pita 4 STAGIONI",
+            "price": "3.20",
+            "picture": "",
+            "info": [
+                "tomaten",
+                "kaas",
+                "champion"
+            ]
         }
     ]  
 }
