@@ -4,7 +4,7 @@
         {   
             "id":10,
             "name": "Kebab AMERICAN",
-            "picture": "",
+            "picture": "img/pita.png",
             "price": "3.50",
             "info": [
                 "tomaten",
@@ -15,7 +15,7 @@
         {
             "id" : 11,
             "name": "Kebab MARGHERITA",
-            "picture": "",
+            "picture": "img/pita2.png",
             "price": "3.60",
             "info": [
                 "tomaten",
