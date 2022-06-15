@@ -3,7 +3,7 @@
     "lattes": [
         {
             "name": "Caffe Latte",
-            "picture": "img/drinks2.png"
+            "picture": "img/drink2.png"
         },
         {
             "name": "Iced Caffe Latte",
@@ -36,17 +36,17 @@
     "americanos": [
         {
             "name": "Caffe Americano",
-            "picture": "img/drinks3.png"
+            "picture": "img/drink3.png"
         },
         {
             "name": "Iced Caffe Americano",
-            "picture": "img/drinks2.png"
+            "picture": "img/drink2.png"
         }
     ],
     "espressos": [
         {
             "name": "Espresso",
-            "picture": "img/drinks3.png"
+            "picture": "img/drink3.png"
         },
         {
             "name": "Espresso Macchiato",
@@ -54,13 +54,13 @@
         },
         {
             "name": "Espresso Con Panna",
-            "picture": "img/drinks2.png"
+            "picture": "img/drink2.png"
         }
     ],
     "cortado": [
         {
             "name": "Flat White",
-            "picture": "img/drinks3.png"
+            "picture": "img/drink3.png"
         },
         {
             "name": "Cartado",
