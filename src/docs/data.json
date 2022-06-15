@@ -7,7 +7,7 @@
         },
         {
             "name": "Iced Caffe Latte",
-            "picture": "../Rectangle 7.png",
+            "picture": "img/drinks.png",
             "info": [
                 "cofie",
                 "Melk",
@@ -16,21 +16,21 @@
         },
         {
             "name": "Iced Starbucks Blonde Latte",
-            "picture": ""
+            "picture": "img/drinks.png"
         }
     ],
     "cappuchinos": [
         {
             "name": "Cappuccino",
-            "picture": ""
+            "picture": "img/drinks.png"
         },
         {
             "name": "Cold Foam Iced Cappuccino",
-            "picture": ""
+            "picture": "img/drinks.png"
         },
         {
             "name": "Classic Iced Cappuccino",
-            "picture": ""
+            "picture": "img/drinks.png"
         }
     ],
     "americanos": [
